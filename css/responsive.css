@@ -1,0 +1,34 @@
+@media (max-width: 780px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    .FS-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
+        padding: 4px;
+    }
+}
+
+@media (max-width: 420px) {
+    header nav a {
+        display: grid;
+        justify-content: center;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .postado {
+        flex-direction: column;
+        align-items: center;
+    }
+}
